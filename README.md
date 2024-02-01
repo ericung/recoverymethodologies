@@ -6,7 +6,7 @@ Notes on recovery methodologies: regularization and sampling
 
 Recovery questions arise in applied mathematics when one needs to recover something- a function, a signal, or an image – from partial or incomplete information.  Such problems, often described as inverse problems, are usually ill-posed and often difficult to resolve.
 
-
+[Bias Variance Tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)
 
 ### References
 
