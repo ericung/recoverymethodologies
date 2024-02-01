@@ -1,3 +1,5 @@
+### Python Tutorial Notes
+
 print("5 > 2")
 if 5 > 2:
     print("Five is greater than two!")
@@ -68,5 +70,24 @@ flb = float(floatnum)
 coc = float(integernum)
 
 print(ina)
-print(flb)
+print(flb
 print(coc)
+
+import random
+print("\n")
+print(random.randrange(1,10))
+
+multiline_doublequotes = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+
+multiline_singlequotes = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+
+print(multiline_doublequotes)
+
+print(multiline_singlequotes)
+
