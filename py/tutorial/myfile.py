@@ -1,9 +1,11 @@
+print("5 > 2")
 if 5 > 2:
     print("Five is greater than two!")
 
 x = 5
 y = "Hello, world!"
 
+print ("\nVariables")
 print (x, y)
 
 ### comment
@@ -23,17 +25,19 @@ print(type(s))
 print(type(i))
 print(type(f))
 
+print("\nVariables")
 def myfunc():
     print("Python is " + y)
 
 myfunc()
 
+print("\nInside")
 def myfuncinside():
     y = "cool"
     print("Python is " + y)
 
 myfuncinside()
-
+print("\nGlobal")
 def myfuncglobal():
     global m
     m = "inside"
@@ -59,3 +63,10 @@ print(type(integernum))
 print(type(floatnum))
 print(type(complexnum))
 
+ina = float(integernum)
+flb = float(floatnum)
+coc = float(integernum)
+
+print(ina)
+print(flb)
+print(coc)
