@@ -11,3 +11,10 @@ print (x, y)
 """
 multiline comment
 """
+
+### casting
+s = str(3)  # x is '3'
+i = int(3)  # y is 3
+f = float(3) # f is 3.0
+
+print (s, i, f)
