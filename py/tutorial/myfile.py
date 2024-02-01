@@ -5,3 +5,9 @@ x = 5
 y = "Hello, world!"
 
 print (x, y)
+
+### comment
+
+"""
+multiline comment
+"""
