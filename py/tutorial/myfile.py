@@ -22,3 +22,14 @@ print (s, i, f)
 print(type(s))
 print(type(i))
 print(type(f))
+
+def myfunc():
+    print("Python is " + y)
+
+myfunc()
+
+def myfuncinside():
+    y = "cool"
+    print("Python is " + y)
+
+myfunc
