@@ -98,3 +98,23 @@ print(a[1])
 print("\Looping string array")
 for x in "banana":
     print(x)
+
+print("len function\n",len(a))
+
+
+print("\ncheck string")
+txt = "The best things in life are free!"
+print(txt)
+print("free" in txt)
+
+if "free" in txt:
+    print("Yes, 'free' is present.")
+
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+
+if "expensive" not in txt:
+    print("No, 'expensive' is NOT present.")
+
+b = "\nHello, World!\n"
+print(b[2:5])

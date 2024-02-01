@@ -17,3 +17,5 @@ Kordemsky, B. A. (1992). The Moscow puzzles: 359 mathematical recreations. (M. G
 Fishbane, P. M., Gasiorowicz, S., & Thornton, S. T. (1996). Physics for scientists and software engineers. Prentice Hall.
 
 Exponent. (n.d.). Complete ML Engineer Interview Course. Retrieved February 1, 2024, from https://www.tryexponent.com/courses/ml-engineer
+
+Van Rossum, G., & Drake, F. L. (2009). Python tutorial. W3Schools. Retrieved February 1, 2024, from https://www.w3schools.com/python/default.asp
