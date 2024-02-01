@@ -32,4 +32,18 @@ def myfuncinside():
     y = "cool"
     print("Python is " + y)
 
-myfunc
+myfuncinside()
+
+def myfuncglobal():
+    global m
+    m = "inside"
+
+myfuncglobal()
+
+print("Python is " + m)
+
+m = "outside"
+
+myfuncglobal()
+
+print("Python is " + m)
