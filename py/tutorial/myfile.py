@@ -18,3 +18,7 @@ i = int(3)  # y is 3
 f = float(3) # f is 3.0
 
 print (s, i, f)
+
+print(type(s))
+print(type(i))
+print(type(f))
