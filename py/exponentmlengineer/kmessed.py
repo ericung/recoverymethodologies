@@ -14,7 +14,6 @@ def heapsortbyk(array,k):
 
     return returnarray
 
-
 arr = [1, 4, 5, 2, 3, 7, 8, 6, 10, 9]
 k = 2
 
