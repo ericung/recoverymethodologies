@@ -116,5 +116,9 @@ print("expensive" not in txt)
 if "expensive" not in txt:
     print("No, 'expensive' is NOT present.")
 
-b = "\nHello, World!\n"
+print("\nslicing")
+b = "Hello, World!"
 print(b[2:5])
+print(b[:5])
+print(b[2:])
+print(b[-5:-2])
