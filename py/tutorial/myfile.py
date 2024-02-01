@@ -67,14 +67,14 @@ print(type(complexnum))
 
 ina = float(integernum)
 flb = float(floatnum)
-coc = float(integernum)
+coa = float(integernum)
 
 print(ina)
-print(flb
-print(coc)
+print(flb)
+print(coa)
 
 import random
-print("\n")
+print("\nRandom")
 print(random.randrange(1,10))
 
 multiline_doublequotes = """Lorem ipsum dolor sit amet,
@@ -87,7 +87,14 @@ consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 
-print(multiline_doublequotes)
+print("\ndouble quotes\n" + multiline_doublequotes)
 
-print(multiline_singlequotes)
+print("\nsingle quotes\n" + multiline_singlequotes)
 
+print("\nstring array")
+a = "\nHello, world!"
+print(a[1])
+
+print("\Looping string array")
+for x in "banana":
+    print(x)
