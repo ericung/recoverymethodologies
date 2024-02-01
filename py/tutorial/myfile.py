@@ -134,3 +134,6 @@ e = "Hello, World!   "
 print(e + "EOL")
 print(e.strip() + "EOL")
 print(e.replace("H","J"))
+
+print("\nsplit")
+print(e.split(","))
