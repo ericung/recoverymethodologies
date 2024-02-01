@@ -122,3 +122,15 @@ print(b[2:5])
 print(b[:5])
 print(b[2:])
 print(b[-5:-2])
+
+print("\nupper case")
+a = "Hello, World!"
+print(a.upper())
+print("lower case")
+print(a.lower())
+
+print("\nstrip")
+e = "Hello, World!   "
+print(e + "EOL")
+print(e.strip() + "EOL")
+print(e.replace("H","J"))
