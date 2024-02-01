@@ -47,3 +47,15 @@ m = "outside"
 myfuncglobal()
 
 print("Python is " + m)
+
+x = 5
+print(type(x))
+
+integernum = 1
+floatnum = 2.8
+complexnum = 1j
+
+print(type(integernum))
+print(type(floatnum))
+print(type(complexnum))
+
