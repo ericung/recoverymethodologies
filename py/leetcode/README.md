@@ -3,11 +3,28 @@
 
 ### DataFrame
 
+```
 result_dataframe = pd.**DataFrame**(student_data, columns=column_names)
 
+CREATE TABLE table (student_id, age);
+```
+
+```
 [players.**shape**[0],players.**shape**[1]]
 
+## Column Count
+SELECT COUNT(COLUMN_NAME) FROM players.COLUMNS;
+
+## Row Count
+SELECT COUNT(*) FROM players;
+```
+
+```
 employees.**head**(3)
+
+SELECT TOP 3 * FROM employees;
+```
+
 
 
 ### Selection
@@ -15,7 +32,7 @@ employees.**head**(3)
 ```
 students.**loc**[students["student_id"] == 101, ["name","age"]] 
 
-SELECT name,age FROM students WHERE student_id = 101
+SELECT name,age FROM students WHERE student_id = 101;
 ```
 
 employees['bonus'] = employees['salary']\*2
