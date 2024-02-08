@@ -12,7 +12,11 @@ employees.**head**(3)
 
 ### Selection
 
-students.**loc**[students["student_id"] == 101, ["name","age"]] <=> SELECT name,age FROM students WHERE student_id = 101
+```
+students.**loc**[students["student_id"] == 101, ["name","age"]] 
+
+SELECT name,age FROM students WHERE student_id = 101
+```
 
 employees['bonus'] = employees['salary']\*2
 
