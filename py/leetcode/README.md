@@ -12,9 +12,11 @@ employees.**head**(3)
 
 ### Selection
 
-students.**loc**[students["student_id"] == 101, ["name","age"]]
+students.**loc**[students["student_id"] == 101, ["name","age"]] <=> SELECT name,age FROM students WHERE student_id = 101
 
 employees['bonus'] = employees['salary']\*2
+
+### Data Cleaning
 
 customers.**drop_duplicates**(subset='email', keep='first',inplace=True)
 
