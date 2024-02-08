@@ -9,6 +9,8 @@ result_dataframe = pd.**DataFrame**(student_data, columns=column_names)
 CREATE TABLE table (student_id, age);
 ```
 
+### Data Inspection
+
 ```
 [players.**shape**[0],players.**shape**[1]]
 
@@ -24,8 +26,6 @@ employees.**head**(3)
 
 SELECT TOP 3 * FROM employees;
 ```
-
-
 
 ### Selection
 
@@ -47,9 +47,17 @@ SET bonus = salary * 2;
 
 ### Data Cleaning
 
+```
 customers.**drop_duplicates**(subset='email', keep='first',inplace=True)
 
+SELECT DISTINCT email FROM customers;
+```
+
+```
 students.**dropna**(subset=['name'], inplace=True)
+
+SELECT * FROM students WHERE name IS NULL;
+```
 
 employees['salary'] \*= 2
 
