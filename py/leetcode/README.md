@@ -35,7 +35,15 @@ students.**loc**[students["student_id"] == 101, ["name","age"]]
 SELECT name,age FROM students WHERE student_id = 101;
 ```
 
+```
 employees['bonus'] = employees['salary']\*2
+
+ALTER TABLE employees
+ADD bonus DECIMAL;
+
+UPDATE employees
+SET bonus = salary * 2;
+```
 
 ### Data Cleaning
 
